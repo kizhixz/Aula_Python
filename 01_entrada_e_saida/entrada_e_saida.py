@@ -1,16 +1,23 @@
 """
-TÍTULO: Entrada e Saída de Dados em Python
+Entrada e saída em Python
 
-EXPLICAÇÃO:
-Entrada e saída são o primeiro passo para interação com o usuário.
-No Python, a entrada é feita com input(), e a saída com print().
-São fundamentais para qualquer programa, independentemente do nível.
+Compreender as operações de entrada e saída é fundamental para a programação em Python. 
+Com a função `print()`, podemos exibir a saída em vários formatos, 
+enquanto a função `input()` permite a interação com os usuários, 
+coletando dados de entrada durante a execução do programa. 
 
-EXERCÍCIOS (SEM RESPOSTA):
+Recebendo entrada em Python
 
-1. Pergunte o nome do usuário e exiba uma mensagem de boas-vindas.
-2. Peça dois números e exiba a soma.
-3. Peça um número e exiba o dobro, triplo e quadrado dele.
-4. Crie um programa que leia um nome, uma idade e uma cidade e exiba tudo formatado.
-5. Leia um valor e mostre-o alinhado à direita em 20 caracteres.
+A função `input()` do Python é usada para receber dados inseridos pelo usuário. 
+Por padrão, ela retorna a entrada do usuário em formato de string. 
 """
+# Exemplo: 
+nome = input("Digite seu nome: ")
+print("Olá,", nome)
+
+# Saída:
+# Digite seu nome: GeeksforGeeks 
+# Olá, GeeksforGeeks! Bem-vindos! 
+
+
+
